@@ -1,0 +1,208 @@
+.wholefile{
+    margin-top: 5%;
+   border: 2px solid black; 
+   width: 650px;
+   border-radius: 10px;
+}
+.signupform{
+    text-align: left;
+    margin-left: 5%;
+    font-size: large;
+    margin-bottom: 5%;
+}
+input{
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input::selection{
+    border: none;
+}
+.signupbtn{
+    background-color: green;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+}
+.loginform{
+    text-align: left;
+    margin-left: 5%;
+    font-size: large;
+    margin-bottom: 5%;
+}
+.loginbtn{
+    background-color: green;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+}
+a{
+    text-decoration: none;
+}
+.otpform{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+#cancelbtn{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+}
+/* #cancelbtn:hover{
+    
+} */
+#verifybtn{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    color: white;
+}
+.typeofexamspage{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#premiumexamlink{
+    color: antiquewhite;
+    font-size: large;
+}
+#freeexamlink{
+    color: black;
+    font-size: large;
+}
+.questionlabel{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: wheat;
+    background-color: #111432;
+    /* padding-top: 13px; */
+    height: 25px;
+}
+.question{
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+}
+#option{
+    width: 17px;
+    height: 12px;
+    /* display: block; */
+}
+#negative{
+    color: red;
+}
+
+#marks{
+    color: green;
+}
+li{
+    list-style-type: none;
+}
+.questionbtns{
+    display: inline;
+}
+.questionbtn{
+    margin: 2px;
+    border-radius: 10px;
+}
+#backbtn{
+    text-align: left;
+    margin: 2%;
+}
+.Attbtns{
+    margin-bottom: 3%;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    background-color: antiquewhite;
+}
+#buttonback{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: black;
+}
+.finalizeExam{
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 4%;
+    padding: 20px;
+    border-radius: 15px;
+}
+#cancellink{
+    color: black;
+    font-size: large;
+}
+#finishbtn{
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    background-color: aquamarine;
+    font-size: large;
+}
+.resultsPage{
+ margin-top: 5%;
+}
+tr, td{
+    border: 1px solid black;
+    text-align: center; 
+}
+table{
+    width: 450px;
+    background-color: azure;   
+}
+span{
+    color:  goldenrod;
+}
+#tm{
+    text-align: right;
+    padding-right: 5px;
+}
+.finishresultbtns{
+    display: flex;
+    justify-content: space-between;
+}
+#resultbtn{
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    background-color: #111432;
+    font-size: large;
+}
+#retakebtn{
+    border: 1px solid;
+    height: 35px;
+    /* margin-left: 345px; */
+    margin-top: 5px;
+    background-color: #111432;
+    border-radius: 10px;
+}
+#graphbtn{
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    background-color: #111432;
+    font-size: large;
+}
+#logoutlink{
+    color: black;
+}
+.btnback{
+    display: flex;
+    margin: 2%;
+}
+#paymentlink{
+    color: #111432;
+}
